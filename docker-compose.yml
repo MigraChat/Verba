@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     environment:
-      - WEAVIATE_URL_VERBA=http://ccssg0k4kgkwcosok8kcwck8.107.221.82.158.sslip.io
+      - WEAVIATE_URL_VERBA=http://weaviate:8080
       - OPENAI_API_KEY=$OPENAI_API_KEY
       - OLLAMA_MODEL=mxbai-embed-large
 
